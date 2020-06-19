@@ -1,1 +1,4 @@
-create table employee (int id, name varchar(20));
+--INSERT INTO EMPLOYEE (first_name, last_name, email) VALUES
+ -- ('Pratap', 'Narayan', 'abc@gmail.com'),
+  --('Sankalp', 'Pratap', 'xyz@email.com'),
+  --('Rakesh', 'Prasad', 'cap@marvel.com');
