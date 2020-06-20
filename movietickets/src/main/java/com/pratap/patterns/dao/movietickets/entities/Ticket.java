@@ -1,4 +1,4 @@
-package com.pratap.patterns.dao.movietickets.model;
+package com.pratap.patterns.dao.movietickets.entities;
 
 public class Ticket {
 

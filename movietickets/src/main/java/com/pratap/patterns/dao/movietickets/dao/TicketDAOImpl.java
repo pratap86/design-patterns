@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.pratap.patterns.dao.movietickets.model.Ticket;
+import com.pratap.patterns.dao.movietickets.entities.Ticket;
 @Repository
 public class TicketDAOImpl implements TicketDAO {
 
@@ -17,6 +17,7 @@ public class TicketDAOImpl implements TicketDAO {
 	public void create(Ticket ticket) {
 
 		jdbcTemplate.update(sql, ticket.getMovie(), ticket.getScreen(), ticket.getSeat());
+		// need to handle dao exception
 	}
 
 }
